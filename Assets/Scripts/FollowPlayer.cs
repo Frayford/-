@@ -7,6 +7,7 @@ public class FollowPlayer : MonoBehaviour {
 	// Use this for initialization
     public void initGame()
     {
+	   //得到transform主键
         player = GameObject.Find("Player").transform;
     }
 	void Start () {
